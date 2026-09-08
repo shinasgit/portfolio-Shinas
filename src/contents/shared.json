@@ -1,0 +1,102 @@
+{
+    "contact": {
+        "location": "India",
+        "email": "shinasshoukkath313@gmail.com",
+        "phone": "+91 9562109037"
+    },
+    "social": [
+        {
+            "label": "GitHub",
+            "href": "https://github.com/shinasshoukkath"
+        },
+        {
+            "label": "Discord",
+            "href": "#"
+        },
+        {
+            "label": "Instagram",
+            "href": "https://instagram.com/shinas_s"
+        },
+        {
+            "label": "Linkedin",
+            "href": "https://www.linkedin.com/in/shinas-s"
+        }
+    ],
+    "stackCategories": [
+        {
+            "title": "FRONTEND TECHNOLOGIES",
+            "items": [
+                { "name": "React.js", "icon": "/stack/react.svg" },
+                { "name": "JavaScript", "icon": "/stack/javascript.svg" },
+                { "name": "HTML5", "icon": "/stack/html5.svg" },
+                { "name": "CSS3", "icon": "/stack/css3.svg" },
+                { "name": "Tailwind CSS", "icon": "/stack/tailwindcss.svg" },
+                { "name": "Material UI", "icon": "/stack/materialui.svg" },
+                { "name": "Bootstrap", "icon": "/stack/bootstrap.svg" }
+            ]
+        },
+        {
+            "title": "BACKEND TECHNOLOGIES",
+            "items": [
+                { "name": "Node.js", "icon": "/stack/nodejs.svg" },
+                { "name": "Express.js", "icon": "/stack/express.svg" }
+            ]
+        },
+        {
+            "title": "DATABASES & CLOUD",
+            "items": [
+                { "name": "MongoDB", "icon": "/stack/mongodb.svg" },
+                { "name": "Firebase Firestore", "icon": "/stack/firebase.svg" }
+            ]
+        },
+        {
+            "title": "AI & GENERATIVE AI",
+            "items": [
+                { "name": "Generative AI" },
+                { "name": "Prompt Engineering" },
+                { "name": "AI-Powered Applications" },
+                { "name": "RAG & AI-Powered Search" },
+                { "name": "AI Workflow Design" },
+                { "name": "LLM Integration" }
+            ]
+        },
+        {
+            "title": "TOOLS & INFRASTRUCTURE",
+            "items": [
+                { "name": "Git", "icon": "/stack/git.svg" },
+                { "name": "GitHub", "icon": "/stack/github.svg" },
+                { "name": "Netlify", "icon": "/stack/netlify.svg" },
+                { "name": "Postman", "icon": "/stack/postman.svg" },
+                { "name": "VS Code", "icon": "/stack/vscode.svg" },
+                { "name": "Firebase Hosting", "icon": "/stack/firebase.svg" },
+                { "name": "Capacitor", "icon": "/stack/capacitor.svg" },
+                { "name": "Android Studio", "icon": "/stack/androidstudio.svg" }
+            ]
+        },
+        {
+            "title": "PROJECT MANAGEMENT",
+            "items": [
+                { "name": "Agile" },
+                { "name": "Scrum" },
+                { "name": "Sprint Planning" },
+                { "name": "Requirement Analysis" },
+                { "name": "Project Planning" },
+                { "name": "Team Coordination" },
+                { "name": "Documentation" },
+                { "name": "Stakeholder Communication" }
+            ]
+        },
+        {
+            "title": "PROFESSIONAL SKILLS",
+            "items": [
+                { "name": "Communication" },
+                { "name": "Problem Solving" },
+                { "name": "Team Leadership" },
+                { "name": "Task Prioritization" },
+                { "name": "Time Management" },
+                { "name": "Teamwork" }
+            ]
+        }
+    ]
+}
+

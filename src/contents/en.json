@@ -1,0 +1,98 @@
+{
+    "about": {
+        "intro": "I'm a *Full Stack Developer* focused on building **clean and sustainable systems**.",
+        "description": "I'm someone who loves **learning new things** and constantly tries to put what I learn into practice. I develop *web* and *desktop* applications. I enjoy working with simple, **practical**, and **sustainable** tools.",
+        "full": "Hi, I'm **SHINAS S**. I have been actively involved in software development for the past few years, mostly self-taught through my own projects and experiments.\n\nI mainly work on web development, using technologies like *React*, *Next.js*, *Laravel*, *TailwindCSS*, *PostgreSQL*, and *MySQL*. Along with these, I develop desktop applications with *WinForms*, *C#*, and *Rust*, as well as various projects utilizing tools like *FFmpeg* and *yt-dlp*.\n\nWhenever I see a new technology or tool, I usually start experimenting with it; I love learning, which constantly draws me to different areas.\n\nI pay great attention to making my projects as **clean, understandable, and sustainable** as possible. I'm a bit **obsessive** about this; sometimes I make things harder for myself even when I know it's unnecessary.\n\nMy current goal is to specialize in **backend and system design** and make my projects more professional. In addition to this, I want to build my own systems, libraries, and simple, practical tools."
+    },
+    "manifesto": [
+        "RADICAL TRANSPARENCY",
+        "INTENTIONAL MINIMALISM",
+        "ARCHITECTURAL INTEGRITY",
+        "FIRST PRINCIPLES THINKING",
+        "PERFORMANCE WITHOUT COMPROMISE",
+        "SCALABLE VISION"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Aether Media",
+            "category": "Media Tool",
+            "year": "2026",
+            "description": "Aether Media is a media processing tool that allows users to batch convert, compress, resize, and rename media files (video, audio, image) quickly, securely, and easily.\n\nBuilt on the performance of Rust and the lightweight nature of Tauri. Using the power of FFmpeg in the background, it offers complex media operations with a modern interface. Your files are never uploaded to a server; all processes take place entirely locally on your own device.",
+            "image": "/projects/20260427093247885.jpg",
+            "repo": "https://github.com/shinasshoukkath/aether-media",
+            "stack": [
+                "FFmpeg",
+                "Rust",
+                "Tauri",
+                "React",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Aether JS",
+            "category": "Library",
+            "year": "2026",
+            "description": "Aether JS is a headless, utility-first JavaScript interaction controller designed for modern web development. It enables you to build fully accessible (a11y) UIs—like modals, tabs, and accordions—using only HTML data-aether-* attributes, without writing complex JavaScript. Perfectly suited for TailwindCSS and similar frameworks, it focuses on state management while leaving the styling entirely to you. Features include focus trapping, dynamic DOM observation, URL syncing, and theme management.",
+            "image": "/projects/20260427093247620.jpg",
+            "demo": "#",
+            "repo": "https://github.com/shinasshoukkath/aether-js",
+            "stack": [
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "File Manager",
+            "category": "Web Application",
+            "year": "2025",
+            "description": "File Manager is a self-hosted file management application with a cyberpunk-inspired interface. It lets you upload, organize, tag, and filter any type of file through a sleek, modern web interface backed by SQLite — no external database required.\n\nAll files are stored locally on your machine — no cloud, no third-party servers. Upload your files, assign tags and keywords, and find them instantly with powerful filtering. The application automatically generates thumbnails for images and videos, giving you a visual overview of your entire archive.",
+            "image": "/projects/20260305210513749.jpg",
+            "repo": "https://github.com/shinasshoukkath/file-manager",
+            "stack": [
+                "React",
+                "TailwindCSS",
+                "Node.js",
+                "SQLite"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2024",
+            "description": "During my academic project I got to know more about this field, tried to explore, and got to know the basics.",
+            "stack": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2025",
+            "description": "Went to a training institute as a Full Stack Developer Intern and studied MERN full stack development.",
+            "stack": [
+                "MongoDB",
+                "Express.js",
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2026",
+            "description": "Got into Expectation Walkers (IT startup company) as a Gen AI Developer and Prompt Engineer.",
+            "stack": [
+                "Firebase",
+                "Capacitor",
+                "Android Studio",
+                "Project Management",
+                "Generative AI"
+            ]
+        }
+    ]
+}
