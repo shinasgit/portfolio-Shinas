@@ -115,24 +115,24 @@
 
 /* shadcn-ui only */
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: #0D0D0C;
+  --foreground: #FFFFFF;
+  --card: #0D0D0C;
+  --card-foreground: #FFFFFF;
+  --popover: #0D0D0C;
+  --popover-foreground: #FFFFFF;
+  --primary: #CCFF00;
+  --primary-foreground: #0D0D0C;
+  --secondary: #1A1C18;
+  --secondary-foreground: #FFFFFF;
+  --muted: #1A1C18;
+  --muted-foreground: #A1A1AA;
+  --accent: #1A1C18;
+  --accent-foreground: #FFFFFF;
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --border: #A1A1AA33;
+  --input: #1A1C18;
+  --ring: #CCFF00;
 }
 
 @layer base {

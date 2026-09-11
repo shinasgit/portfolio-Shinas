@@ -15,7 +15,7 @@
     "projects": [
         {
             "id": "1",
-            "title": "Aether Media",
+            "title": "NaaduX",
             "category": "Media Tool",
             "year": "2026",
             "description": "Aether Media is a media processing tool that allows users to batch convert, compress, resize, and rename media files (video, audio, image) quickly, securely, and easily.\n\nBuilt on the performance of Rust and the lightweight nature of Tauri. Using the power of FFmpeg in the background, it offers complex media operations with a modern interface. Your files are never uploaded to a server; all processes take place entirely locally on your own device.",
@@ -31,7 +31,7 @@
         },
         {
             "id": "2",
-            "title": "Aether JS",
+            "title": "Urban Ease",
             "category": "Library",
             "year": "2026",
             "description": "Aether JS is a headless, utility-first JavaScript interaction controller designed for modern web development. It enables you to build fully accessible (a11y) UIs—like modals, tabs, and accordions—using only HTML data-aether-* attributes, without writing complex JavaScript. Perfectly suited for TailwindCSS and similar frameworks, it focuses on state management while leaving the styling entirely to you. Features include focus trapping, dynamic DOM observation, URL syncing, and theme management.",
@@ -44,7 +44,7 @@
         },
         {
             "id": "3",
-            "title": "File Manager",
+            "title": "Book store Management",
             "category": "Web Application",
             "year": "2025",
             "description": "File Manager is a self-hosted file management application with a cyberpunk-inspired interface. It lets you upload, organize, tag, and filter any type of file through a sleek, modern web interface backed by SQLite — no external database required.\n\nAll files are stored locally on your machine — no cloud, no third-party servers. Upload your files, assign tags and keywords, and find them instantly with powerful filtering. The application automatically generates thumbnails for images and videos, giving you a visual overview of your entire archive.",

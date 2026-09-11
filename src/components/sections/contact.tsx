@@ -40,7 +40,7 @@ export default function Contact() {
                     <BlurReveal>
                         <a
                             href={`mailto:${content.contact.email}`}
-                            className="group flex flex-col md:flex-row md:items-center justify-between py-10 md:py-14 border-b border-border/50 transition-all duration-700 hover:px-8"
+                            className="relative z-50 cursor-pointer block group flex-col md:flex-row md:items-center justify-between py-10 md:py-14 border-b border-border/50 transition-all duration-700 hover:px-8"
                         >
                             <span className="text-sm font-mono tracking-widest text-muted-foreground uppercase mb-4 md:mb-0 transition-colors duration-500 group-hover:text-foreground">
                                 {dict.sendEmail}
@@ -58,7 +58,7 @@ export default function Contact() {
                     <BlurReveal>
                         <a
                             href={`tel:${sanitizePhone(content.contact.phone)}`}
-                            className="group flex flex-col md:flex-row md:items-center justify-between py-10 md:py-14 border-b border-border/50 transition-all duration-700 hover:px-8"
+                            className="relative z-50 cursor-pointer block group flex-col md:flex-row md:items-center justify-between py-10 md:py-14 border-b border-border/50 transition-all duration-700 hover:px-8"
                         >
                             <span className="text-sm font-mono tracking-widest text-muted-foreground uppercase mb-4 md:mb-0 transition-colors duration-500 group-hover:text-foreground">
                                 {dict.directLine}

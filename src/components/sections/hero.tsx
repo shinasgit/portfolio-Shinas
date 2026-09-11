@@ -11,22 +11,22 @@ export default function Hero() {
     return (
         <section
             id="home"
-            className="relative w-full h-screen min-h-[800px] flex flex-col justify-end overflow-hidden bg-[#050505]"
+            className="relative w-full h-screen min-h-[800px] flex flex-col justify-end overflow-hidden bg-background"
         >
             {/* Grid Overlay */}
             <div className="absolute inset-0 pointer-events-none z-0">
                 {/* Vertical Lines */}
-                <div className="absolute top-0 bottom-0 left-[10%] w-px bg-[#39ff14]/10" />
-                <div className="absolute top-0 bottom-0 left-[50%] w-px bg-[#39ff14]/10" />
-                <div className="absolute top-0 bottom-0 right-[10%] w-px bg-[#39ff14]/10" />
+                <div className="absolute top-0 bottom-0 left-[10%] w-px bg-primary/10" />
+                <div className="absolute top-0 bottom-0 left-[50%] w-px bg-primary/10" />
+                <div className="absolute top-0 bottom-0 right-[10%] w-px bg-primary/10" />
                 {/* Horizontal Lines */}
-                <div className="absolute left-0 right-0 top-[20%] h-px bg-[#39ff14]/10" />
-                <div className="absolute left-0 right-0 top-[75%] h-px bg-[#39ff14]/10" />
+                <div className="absolute left-0 right-0 top-[20%] h-px bg-primary/10" />
+                <div className="absolute left-0 right-0 top-[75%] h-px bg-primary/10" />
                 {/* Intersections (Crosshairs) */}
-                <div className="absolute left-[10%] top-[20%] -translate-x-1/2 -translate-y-1/2 text-[#39ff14]/40 text-[10px]">+</div>
-                <div className="absolute right-[10%] top-[20%] -translate-x-1/2 -translate-y-1/2 text-[#39ff14]/40 text-[10px]">+</div>
-                <div className="absolute left-[10%] top-[75%] -translate-x-1/2 -translate-y-1/2 text-[#39ff14]/40 text-[10px]">+</div>
-                <div className="absolute right-[10%] top-[75%] -translate-x-1/2 -translate-y-1/2 text-[#39ff14]/40 text-[10px]">+</div>
+                <div className="absolute left-[10%] top-[20%] -translate-x-1/2 -translate-y-1/2 text-primary/40 text-[10px]">+</div>
+                <div className="absolute right-[10%] top-[20%] -translate-x-1/2 -translate-y-1/2 text-primary/40 text-[10px]">+</div>
+                <div className="absolute left-[10%] top-[75%] -translate-x-1/2 -translate-y-1/2 text-primary/40 text-[10px]">+</div>
+                <div className="absolute right-[10%] top-[75%] -translate-x-1/2 -translate-y-1/2 text-primary/40 text-[10px]">+</div>
             </div>
 
             {/* Giant Background Typography */}
@@ -36,7 +36,7 @@ export default function Hero() {
                 transition={{ duration: 1.2, ease: "easeOut" }}
                 className="absolute inset-x-0 -top-[6%] flex justify-center pointer-events-none z-0 overflow-hidden"
             >
-                <h1 className="text-[18vw] font-[family-name:var(--font-black-ops-one)] font-normal text-[#39ff14]/10 select-none tracking-tighter uppercase whitespace-nowrap">
+                <h1 className="text-[18vw] font-[family-name:var(--font-black-ops-one)] font-normal text-white/10 select-none tracking-tighter uppercase whitespace-nowrap drop-shadow-[0_0_80px_rgba(204,255,0,0.15)]">
                     SHINAS
                 </h1>
             </motion.div>
@@ -100,8 +100,7 @@ export default function Hero() {
                         transition={{ duration: 0.8, delay: 0.6 }}
                         className="flex flex-col"
                     >
-                        <span className="text-[#39ff14] text-sm font-[600] font-mono mb-2 drop-shadow-md">©2026</span>
-                        <h2 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[8vw] font-[family-name:var(--font-black-ops-one)] font-normal text-[#39ff14] leading-[0.8] tracking-tighter uppercase drop-shadow-xl z-20 mix-blend-normal mb-4">
+                        <h2 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[8vw] font-[family-name:var(--font-black-ops-one)] font-normal text-foreground leading-[0.8] tracking-tighter uppercase drop-shadow-xl z-20 mix-blend-normal mb-4">
                             SHINAS S
                         </h2>
                         {/* Left Description under SHINAS S */}
@@ -112,7 +111,7 @@ export default function Hero() {
                         initial={{ opacity: 0, x: 30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.8 }}
-                        className="bg-[#111111] p-3 md:p-4 rounded-sm flex items-center gap-4 text-white shadow-2xl w-[260px] md:w-[280px] mb-8 md:mb-0 relative z-30 group cursor-pointer border border-white/10"
+                        className="bg-card p-3 md:p-4 rounded-sm flex items-center gap-4 text-card-foreground shadow-2xl w-[260px] md:w-[280px] mb-8 md:mb-0 relative z-30 group cursor-pointer border border-border"
                     >
                         <div className="relative w-12 h-12 overflow-hidden rounded-sm grayscale group-hover:grayscale-0 transition-all duration-500">
                             <Image 
@@ -123,11 +122,11 @@ export default function Hero() {
                             />
                         </div>
                         <div className="flex flex-col justify-center flex-1">
-                            <span className="text-xs text-white/60 mb-1 font-[500]">Let's Talk</span>
+                            <span className="text-xs text-muted-foreground mb-1 font-[500]">Let's Talk</span>
                             <span className="text-sm font-[600]">Shinas S</span>
-                            <span className="text-[11px] text-white/50 font-[400] mt-0.5">Full Stack Developer</span>
+                            <span className="text-[11px] text-muted-foreground font-[400] mt-0.5">Full Stack Developer</span>
                         </div>
-                        <div className="bg-white text-black p-2 rounded-sm group-hover:bg-orange-500 group-hover:text-white transition-colors duration-300">
+                        <div className="bg-primary text-primary-foreground p-2 rounded-sm group-hover:bg-foreground group-hover:text-background transition-colors duration-300">
                             <ArrowUpRight className="w-4 h-4" />
                         </div>
                     </motion.div>
