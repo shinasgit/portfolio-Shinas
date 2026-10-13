@@ -1,8 +1,8 @@
 {
     "about": {
-        "intro": "I'm a *Full Stack Developer* focused on building **clean and sustainable systems**.",
-        "description": "I'm someone who loves **learning new things** and constantly tries to put what I learn into practice. I develop *web* and *desktop* applications. I enjoy working with simple, **practical**, and **sustainable** tools.",
-        "full": "Hi, I'm **SHINAS S**. I have been actively involved in software development for the past few years, mostly self-taught through my own projects and experiments.\n\nI mainly work on web development, using technologies like *React*, *Next.js*, *Laravel*, *TailwindCSS*, *PostgreSQL*, and *MySQL*. Along with these, I develop desktop applications with *WinForms*, *C#*, and *Rust*, as well as various projects utilizing tools like *FFmpeg* and *yt-dlp*.\n\nWhenever I see a new technology or tool, I usually start experimenting with it; I love learning, which constantly draws me to different areas.\n\nI pay great attention to making my projects as **clean, understandable, and sustainable** as possible. I'm a bit **obsessive** about this; sometimes I make things harder for myself even when I know it's unnecessary.\n\nMy current goal is to specialize in **backend and system design** and make my projects more professional. In addition to this, I want to build my own systems, libraries, and simple, practical tools."
+        "intro": "Hi, I'm Shinas S, a Computer Science graduate and Full Stack AI Developer passionate about building practical software and AI-powered applications.",
+        "description": "I work across Generative AI and full-stack development, with hands-on experience in modern technologies. I enjoy turning ideas into working products—from AI-powered chatbots to full-stack platforms.",
+        "full": "Hi, I’m **Shinas S**, a Computer Science graduate and **Full Stack AI Developer** passionate about building practical software and AI-powered applications.\n\nI work across **Generative AI and full-stack development**, with hands-on experience in technologies such as *React, React Native, TypeScript, JavaScript, Node.js, Express.js, Firebase, and OpenAI APIs*. I enjoy turning ideas into working products—from AI-powered chatbots and content-generation systems to mobile applications and full-stack platforms.\n\nI’m particularly interested in **Generative AI, AI-assisted development**, and building products that solve real-world problems. I’m a curious learner who enjoys experimenting with new technologies, understanding how they work, and applying them to projects.\n\nCurrently, I’m focused on strengthening my skills in **Generative AI, backend development, system design, and AI application development**, while continuing to build and improve practical projects."
     },
     "manifesto": [
         "RADICAL TRANSPARENCY",
@@ -32,12 +32,12 @@
         {
             "id": "2",
             "title": "Urban Ease",
-            "category": "Library",
+            "category": "Web Application",
             "year": "2026",
-            "description": "Aether JS is a headless, utility-first JavaScript interaction controller designed for modern web development. It enables you to build fully accessible (a11y) UIs—like modals, tabs, and accordions—using only HTML data-aether-* attributes, without writing complex JavaScript. Perfectly suited for TailwindCSS and similar frameworks, it focuses on state management while leaving the styling entirely to you. Features include focus trapping, dynamic DOM observation, URL syncing, and theme management.",
-            "image": "/projects/20260427093247620.jpg",
-            "demo": "#",
-            "repo": "https://github.com/shinasshoukkath/aether-js",
+            "description": "Urban Ease is a comprehensive marketplace platform designed to simplify local bookings for homes, appliances, and services. It provides a seamless user experience for discovering and booking quick, reliable, and affordable local offerings all in one centralized hub. Built with modern web technologies, it features secure payments, verified providers, and an intuitive interface that streamlines the entire booking process from search to confirmation.",
+            "image": "/UrbanEase Marketplace Homepage.png",
+            "demo": "https://urban-ease-frontend-r8etsy94m-shinas-projects-0df11a1a.vercel.app/",
+            "repo": "",
             "stack": [
                 "JavaScript"
             ]

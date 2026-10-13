@@ -100,7 +100,7 @@ export default function Hero() {
                         transition={{ duration: 0.8, delay: 0.6 }}
                         className="flex flex-col"
                     >
-                        <h2 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[8vw] font-[family-name:var(--font-black-ops-one)] font-normal text-foreground leading-[0.8] tracking-tighter uppercase drop-shadow-xl z-20 mix-blend-normal mb-4">
+                        <h2 className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[8vw] font-[family-name:var(--font-black-ops-one)] font-normal text-foreground leading-[0.8] tracking-tighter uppercase drop-shadow-xl z-20 mix-blend-normal mb-4 transition-colors duration-300 hover:text-primary cursor-pointer">
                             SHINAS S
                         </h2>
                         {/* Left Description under SHINAS S */}

@@ -101,13 +101,13 @@ export default function Projects() {
                             </BlurReveal>
 
                             <BlurReveal>
-                                <h2 className="title">
+                                <h2 className="title transition-colors duration-300 hover:text-primary">
                                     {dict.title.projects}
                                 </h2>
                             </BlurReveal>
 
                             <BlurReveal>
-                                <p className="mt-4 text-muted-foreground text-lg">
+                                <p className="mt-4 text-muted-foreground text-lg transition-colors duration-300 hover:text-primary">
                                     {dict.projectsIntro}
                                 </p>
                             </BlurReveal>
@@ -138,13 +138,13 @@ export default function Projects() {
                                 </BlurReveal>
 
                                 <BlurReveal>
-                                    <h2 className="title">
+                                    <h2 className="title transition-colors duration-300 hover:text-primary">
                                         {dict.title.projects}
                                     </h2>
                                 </BlurReveal>
 
                                 <BlurReveal>
-                                    <p className="mt-4 text-5xl font-light leading-tight">
+                                    <p className="mt-4 text-5xl font-light leading-tight transition-colors duration-300 hover:text-primary">
                                         {dict.projectsIntro}
                                     </p>
                                 </BlurReveal>

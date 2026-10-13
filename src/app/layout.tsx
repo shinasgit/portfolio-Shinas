@@ -5,7 +5,6 @@ import "./globals.css";
 import SmoothScroll from "@/providers/smooth-scroll-provider";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { LanguageProvider } from "@/providers/language-provider";
-import { Preloader } from "@/components/layout/preloader";
 import { CustomCursor } from "@/components/layout/custom-cursor";
 import Navbar from "@/components/layout/navbar";
 import { getDictionary, getContents, getSharedData } from "@/lib/loaders";
@@ -50,7 +49,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             enableSystem={false}
           >
             <CustomCursor />
-            <Preloader />
             <SmoothScroll>
               <Navbar />
               {children}

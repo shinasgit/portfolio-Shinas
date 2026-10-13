@@ -31,13 +31,13 @@
         },
         {
             "id": "2",
-            "title": "Aether JS",
-            "category": "Kütüphane",
+            "title": "Urban Ease",
+            "category": "Web Uygulaması",
             "year": "2026",
-            "description": "Aether JS, modern web geliştirme için tasarlanmış, headless ve utility-first bir JavaScript etkileşim kontrolcüsüdür. Karmaşık JavaScript kodları yazmadan, yalnızca HTML data-aether-* özniteliklerini kullanarak tam erişilebilir (a11y) kullanıcı arayüzleri (modal, tab, akordiyon vb.) oluşturmanızı sağlar. TailwindCSS ve benzeri framework'lerle mükemmel bir uyum içinde çalışır; durum yönetimini üstlenirken stil kontrolünü tamamen size bırakır. Odak yakalama, dinamik DOM gözlemi, URL senkronizasyonu ve tema yönetimi gibi özellikler sunar.",
-            "image": "/projects/20260427093247620.jpg",
-            "demo": "#",
-            "repo": "https://github.com/shinasshoukkath/aether-js",
+            "description": "Urban Ease, evler, ev aletleri ve hizmetler için yerel rezervasyonları basitleştirmek üzere tasarlanmış kapsamlı bir pazar yeri platformudur. Hızlı, güvenilir ve uygun fiyatlı yerel teklifleri tek bir merkezi noktada keşfetmek ve rezerve etmek için kusursuz bir kullanıcı deneyimi sağlar. Modern web teknolojileri ile oluşturulmuş olup, güvenli ödemeler, doğrulanmış sağlayıcılar ve aramadan onaya kadar tüm rezervasyon sürecini kolaylaştıran sezgisel bir arayüz sunar.",
+            "image": "/UrbanEase Marketplace Homepage.png",
+            "demo": "https://urban-ease-frontend-r8etsy94m-shinas-projects-0df11a1a.vercel.app/",
+            "repo": "",
             "stack": [
                 "JavaScript"
             ]
