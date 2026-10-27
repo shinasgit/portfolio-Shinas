@@ -4,7 +4,7 @@ export type ProjectItem = {
     category: string;
     year: string;
     description: string;
-    image: string;
+    image?: string;
     demo?: string;
     repo?: string;
     stack?: string[];

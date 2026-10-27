@@ -194,35 +194,70 @@ const ProjectCard = React.memo(function ProjectCard({ project, index, onClick }:
                 onClick={onClick}
                 className="group relative w-full xl:w-[45vw] aspect-4/3 shrink-0 xl:mx-6 perspective-1000 cursor-pointer"
             >
-                <div className="relative w-full h-full overflow-hidden bg-muted border border-border/50 transition-all duration-700 ease-out group-hover:border-foreground/20">
+                <div className="relative w-full h-full overflow-hidden bg-card/60 border border-border/50 transition-all duration-700 ease-out group-hover:border-primary/40 group-hover:shadow-[0_0_30px_rgba(0,245,212,0.1)]">
                     <div className="absolute inset-0 z-0">
-                        <Image
-                            src={project.image}
-                            alt={project.title}
-                            fill
-                            sizes="(max-width: 1280px) 100vw, 45vw"
-                            priority={index === 0}
-                            loading={index === 0 ? undefined : "lazy"}
-                            className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 grayscale group-hover:grayscale-0"
-                        />
-                        <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent" />
+                        {project.image ? (
+                            <Image
+                                src={project.image}
+                                alt={project.title}
+                                fill
+                                sizes="(max-width: 1280px) 100vw, 45vw"
+                                priority={index === 0}
+                                loading={index === 0 ? undefined : "lazy"}
+                                className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 grayscale group-hover:grayscale-0"
+                            />
+                        ) : (
+                            <div className="w-full h-full bg-linear-to-br from-card via-[#0D1117] to-secondary/30 flex flex-col justify-center px-6 xl:px-12 relative overflow-hidden">
+                                <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,245,212,0.1),rgba(255,255,255,0))]" />
+                                <div className="absolute right-6 top-1/2 -translate-y-1/2 text-8xl md:text-9xl font-black font-mono text-border/10 select-none pointer-events-none group-hover:text-primary/10 transition-colors duration-500">
+                                    0{index + 1}
+                                </div>
+                                <div className="relative z-10 max-w-lg mb-16 md:mb-20">
+                                    <p className="text-xs sm:text-sm md:text-base text-muted-foreground line-clamp-3 leading-relaxed mb-4 font-light">
+                                        {project.description}
+                                    </p>
+                                    {project.stack && project.stack.length > 0 && (
+                                        <div className="flex flex-wrap gap-1.5">
+                                            {project.stack.slice(0, 5).map((tech) => (
+                                                <span
+                                                    key={tech}
+                                                    className="px-2.5 py-0.5 rounded-full border border-border/60 bg-secondary/40 text-[11px] font-mono text-foreground/80 group-hover:border-primary/30 transition-colors"
+                                                >
+                                                    {tech}
+                                                </span>
+                                            ))}
+                                            {project.stack.length > 5 && (
+                                                <span className="px-2 py-0.5 rounded-full border border-border/60 bg-secondary/20 text-[11px] font-mono text-muted-foreground">
+                                                    +{project.stack.length - 5}
+                                                </span>
+                                            )}
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        )}
+                        <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent pointer-events-none" />
                     </div>
 
-                    <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 xl:p-12">
+                    <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 xl:p-12 pointer-events-none">
                         <div className="flex justify-between items-start">
                             <div className="overflow-hidden">
-                                <span className="block text-xs xl:text-sm font-mono tracking-widest text-muted-foreground uppercase transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 delay-100">
+                                <span className="block text-xs xl:text-sm font-mono tracking-widest text-muted-foreground uppercase group-hover:text-primary transition-colors duration-300">
                                     {project.category}
                                 </span>
                             </div>
                             <div className="overflow-hidden">
-                                <span className="block text-xs xl:text-sm font-mono text-muted-foreground transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 delay-200">
+                                <span className="block text-xs xl:text-sm font-mono text-muted-foreground">
                                     {project.year}
                                 </span>
                             </div>
                         </div>
 
-                        <h3 className="absolute bottom-6 md:bottom-8 2xl:bottom-12 left-6 md:left-8 2xl:left-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-black tracking-tighter uppercase text-foreground opacity-10 group-hover:opacity-100 transition-opacity duration-500 delay-100 pointer-events-none">
+                        <h3 className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black tracking-tighter uppercase leading-tight transition-all duration-500 delay-100 ${
+                            project.image
+                                ? "text-foreground opacity-20 group-hover:opacity-100"
+                                : "text-foreground opacity-90 group-hover:text-primary group-hover:opacity-100"
+                        }`}>
                             {project.title}
                         </h3>
                     </div>

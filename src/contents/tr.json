@@ -15,17 +15,18 @@
     "projects": [
         {
             "id": "1",
-            "title": "Aether Media",
-            "category": "Medya Aracı",
+            "title": "NaaduX",
+            "category": "Civic-Tech & Commerce",
             "year": "2026",
-            "description": "Aether Media, kullanıcıların medya dosyalarını (video, ses, görsel) toplu olarak hızlı, güvenli ve kolay bir şekilde dönüştürmelerini, sıkıştırmalarını, boyutlandırmalarını ve yeniden isimlendirmelerini sağlayan bir medya işleme aracıdır.\n\nRust dilinin performansı ve Tauri'nin hafif yapısı üzerine inşa edilmiştir. Arka planda FFmpeg'in gücünü kullanarak, karmaşık medya işlemlerini modern bir arayüzle sunar. Dosyalarınız asla bir sunucuya yüklenmez; tüm işlemler tamamen yerel olarak kendi cihazınızda gerçekleşir.",
-            "image": "/projects/20260427093247885.jpg",
-            "repo": "https://github.com/shinasshoukkath/aether-media",
+            "description": "NaaduX is a hyperlocal civic-tech and commerce platform that connects communities with local services, food ordering, community events, and essential information. It features an AI-powered chatbot, real-time order tracking, and delivery-partner integration to provide a convenient and connected local experience.",
+            "image": "",
+            "repo": "",
             "stack": [
-                "FFmpeg",
-                "Rust",
-                "Tauri",
                 "React",
+                "Node.js",
+                "Express.js",
+                "Generative AI",
+                "Firebase",
                 "TailwindCSS"
             ]
         },
@@ -44,17 +45,22 @@
         },
         {
             "id": "3",
-            "title": "File Manager",
-            "category": "Web Uygulaması",
+            "title": "MERN-Based Book Store Management System",
+            "category": "Full Stack Web Application",
             "year": "2025",
-            "description": "File Manager, cyberpunk ilhamlı arayüze sahip, kendi sunucunuzda barındırabileceğiniz bir dosya yönetim uygulamasıdır. SQLite altyapısı sayesinde harici bir veritabanına ihtiyaç duymadan; her türlü dosyayı şık ve modern bir web arayüzü üzerinden yüklemenizi, düzenlemenizi, etiketlemenizi ve filtrelemenizi sağlar.\n\nTüm dosyalar tamamen yerel cihazınızda saklanır — bulut yok, üçüncü taraf sunucular yok. Dosyalarınızı yükleyin, etiketler ve anahtar kelimeler atayın ve güçlü filtreleme ile anında bulun. Uygulama, görseller ve videolar için otomatik olarak küçük resimler (thumbnail) oluşturarak tüm arşivinizi görsel olarak sunar.",
-            "image": "/projects/20260305210513749.jpg",
-            "repo": "https://github.com/shinasshoukkath/file-manager",
+            "description": "Built a full-stack web application that allows users to browse, upload, and manage books with secure authentication and role based admin control. Implemented JWT authentication, Google OAuth 2.0, and file uploads using Multer. Integrated Stripe Payment Gateway to enable secure online payments for bookings.",
+            "image": "",
+            "repo": "",
             "stack": [
-                "React",
-                "TailwindCSS",
+                "MongoDB",
+                "Express.js",
+                "React.js",
                 "Node.js",
-                "SQLite"
+                "Tailwind CSS",
+                "JWT",
+                "Google OAuth",
+                "Multer",
+                "Stripe"
             ]
         }
     ],

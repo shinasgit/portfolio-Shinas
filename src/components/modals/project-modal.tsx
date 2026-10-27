@@ -41,8 +41,8 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
 
                 <div className="overflow-y-auto w-full h-full flex-1" data-lenis-prevent="true">
 
-                    <div className="relative w-full h-[40vh] sm:h-[50vh] shrink-0">
-                        {project.image && (
+                    {project.image ? (
+                        <div className="relative w-full h-[40vh] sm:h-[50vh] shrink-0">
                             <Image
                                 src={project.image}
                                 alt={project.title}
@@ -50,22 +50,36 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                                 className="object-cover rounded-lg"
                                 priority
                             />
-                        )}
-                        <div className="absolute inset-0 bg-linear-to-t from-background to-transparent" />
+                            <div className="absolute inset-0 bg-linear-to-t from-background to-transparent" />
 
-                        <div className="absolute bottom-6 left-6 right-6 sm:bottom-10 sm:left-10 sm:right-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-                            <div>
-                                <h2 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-foreground mb-2">
-                                    {project.title}
-                                </h2>
-                                <div className="flex items-center gap-3 text-sm font-mono tracking-widest text-muted-foreground uppercase">
+                            <div className="absolute bottom-6 left-6 right-6 sm:bottom-10 sm:left-10 sm:right-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+                                <div>
+                                    <h2 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-foreground mb-2">
+                                        {project.title}
+                                    </h2>
+                                    <div className="flex items-center gap-3 text-sm font-mono tracking-widest text-muted-foreground uppercase">
+                                        <span>{project.category}</span>
+                                        <span className="w-1 h-1 rounded-full bg-border" />
+                                        <span>{project.year}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ) : (
+                        <div className="relative w-full p-6 sm:p-10 pt-10 sm:pt-14 bg-linear-to-b from-secondary/40 via-background to-background border-b border-border/50">
+                            <div className="absolute top-0 right-0 w-72 h-72 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+                            <div className="flex flex-col gap-3">
+                                <div className="flex items-center gap-3 text-xs sm:text-sm font-mono tracking-widest text-primary uppercase">
                                     <span>{project.category}</span>
                                     <span className="w-1 h-1 rounded-full bg-border" />
                                     <span>{project.year}</span>
                                 </div>
+                                <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tighter text-foreground">
+                                    {project.title}
+                                </h2>
                             </div>
                         </div>
-                    </div>
+                    )}
 
                     <div className="p-6 sm:p-10 flex flex-col gap-10">
                         <div>
